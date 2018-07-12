@@ -3,7 +3,8 @@
 
 <head>
     <link rel="stylesheet" href="css/materialize.min.css">
-<!-- 
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script> -->
 
     <meta charset=utf-8>
@@ -12,27 +13,35 @@
 
 <body>
     <header>
-        <nav class="grey">
-            <div class="nav-wrapper container">
-                <a>Aidis Stukas Homepage</a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li>
-                        <a href="#python">Python</a>
-                    </li>
-                    <li>
-                        <a href="#machine-learning">ML</a>
-                    </li>
-                    <li>
-                        <a href="#contacts">Contacts</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <div class="navbar-fixed">
+            <nav class="grey">
+                <div class="nav-wrapper container">
+                    <a>Aidis Stukas Homepage</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="#python">Python</a>
+                        </li>
+                        <li>
+                            <a href="#machine-learning">ML</a>
+                        </li>
+                        <li>
+                            <a href="#contacts">Contacts</a>
+                        </li>
+
+                        <li>
+                            <a href="#python">Web Scraping</a>
+                        </li>
+                        <li>
+                            <a href="#python">Agent-Based Modeling</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
 
-    <main class='container'>
+    <main>
         <div id="community" class="row">
-
             <div class="row">
                 <div class="col s12 m3">
                     <div>
@@ -40,28 +49,32 @@
                     </div>
                 </div>
                 <div class="col s12 m9">
-                    <div class="container valign-wrapper">
-                        I try to do some community things. I organize PyConLT, PyData Kaunas, Kaunas Py, Agile Tour kaunas events.
+                    <div class="container">
+                        <div class="valign-wrapper">
+                            <p>
+                                I try to do some community hings. I organize PyConLT, PyData Kaunas, Kaunas Py, Agile Tour kaunas events
+                            </p>
+                        </div>
                     </div>
-
                 </div>
             </div>
-
-
         </div>
-        </div>
+
 
         <div class="divider"></div>
 
-        <div id="python">
+        <div id="python" class="grey lighten-5">
             <div class="row">
                 <div class="col s12 m3">
-                    <h2>Python
-                        <h2>
+                    <h2>
+                        Python
+                    </h2>
                 </div>
                 <div class="col s12 m9">
-                    <div>
-                        My Language of choice. I started Python back in 2011. With help of Jurgis Pralgauskis.
+                    <div class="container valign-wrapper">
+                        <p>
+                            My Language of choice. I started Python back in 2011. With help of Jurgis Pralgauskis.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -77,8 +90,10 @@
                     </div>
                 </div>
                 <div class="col s12 m9">
-                    <div>
-                        I did lots of web scraping, professionaly and just for the sake of it. You can see most of my scrapers at my github repository
+                    <div class="container valign-wrapper">
+                        <p>
+                            I did lots of web scraping, professionaly and just for the sake of it. You can see most of my scrapers at my github repository
+                        </p>
                     </div>
                 </div>
             </div>
@@ -86,7 +101,7 @@
 
         <div class="divider"></div>
 
-        <div id="machine-learning">
+        <div id="machine-learning" class="grey lighten-5">
             <div class="row">
                 <div class="col s12 m3">
                     <div>
@@ -94,9 +109,11 @@
                     </div>
                 </div>
                 <div class="col s12 m9">
-                    <div>
-                        I am big fan of machine learning. Data tells you the answer. I somewhat experience in using sklearn. I also try to participate
-                        in Kaggle competitions.
+                    <div class="container valign-wrapper">
+                        <p>
+                            I am big fan of machine learning. Data tells you the answer. I somewhat experience in using sklearn. I also try to participate
+                            in Kaggle competitions.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -105,19 +122,22 @@
         <div class="divider"></div>
 
         <div class="section">
-            <div id="contacts">
-                <div class="row">
-                    <div class="col s12 m3">
-                        <div>
-                            <h2>Contacts</h2>
-                        </div>
+            <div class="row">
+                <div class="col s12 m3">
+                    <div>
+                        <h2>Contacts</h2>
                     </div>
-                    <div class="col s12 m9">
+                </div>
+                <div class="col s12 m9">
+                    <div class="container valign-wrapper">
                         <div>
-                            If you want to contact me please send a note to aidiss@gmail.com
+                            <p>
+                                If you want to contact me please send a note to aidiss@gmail.com
+                            </p>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
 
@@ -127,11 +147,22 @@
     <footer class="page-footer grey">
         <div class="container">
             <div>Info</div>
-            <div>LinkedIn</div>
-            <div>GitHub</div>
-            <div>StackOverflow</div>
-            <div>Kaggle</div>
-            <div>Medium</div>
+            <ul>
+                <li>LinkedIn https://www.linkedin.com/in/aidis-stukas-2895b68/
+                </li>
+                <li>
+                    GitHub https://github.com/aidiss/
+                </li>
+                <li>
+                    StackOverflow https://stackoverflow.com/users/2631229/aidis
+                </li>
+                <li>
+                    Kaggle https://www.kaggle.com/aidisstukas
+                </li>
+                <li>
+                    Medium https://medium.com/@aidis_stukas
+                </li>
+            </ul>
         </div>
     </footer>
 </body>
