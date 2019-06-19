@@ -1,4 +1,4 @@
-h2 {
+/* h2 {
     font-size: 2em;
     text-align: right;
 }
@@ -6,4 +6,9 @@ h2 {
 .row {
     margin-bottom: 0;
     height: 10em;
+} */
+
+
+body {
+    font-family: 'Fira Sans', sans-serif
 }
