@@ -1,22 +1,9 @@
-/* h2 {
-    font-size: 2em;
-    text-align: right;
-}
-
-.row {
-    margin-bottom: 0;
-    height: 10em;
-} */
-
-
 body {
     font-family: 'Fira Sans', sans-serif
 }
 
 .center {
-  margin: auto;
-  width: 50%;
-  min-width: 600px;
-  /* border: 3px solid green; */
-  /* padding: 100px; */
+    margin: auto;
+    width: 50%;
+    min-width: 200px;
 }
