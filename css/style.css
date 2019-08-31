@@ -7,3 +7,17 @@ body {
     width: 50%;
     min-width: 200px;
 }
+
+#orange {background-color: #dd6e42;} 
+#yellow {background-color: #e8dab2;} 
+#blue {background-color: #4f6d7a;} 
+#lightblue {background-color: #c0d6df;} 
+#white {background-color: #eaeaea;} 
+
+a {
+    color: #4f6d7a;
+}
+
+body {
+    background-color: #eaeaea;
+}
